@@ -1,0 +1,19 @@
+.rbw, .rbw-hover:hover  {
+    background: linear-gradient(270deg, red, orange, yellow, green, blue, purple, red);
+    background-size: 400% 100%;
+    transform: background-position 0.5s;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+    text-decoration: none;
+}
+
+@keyframes rainbow {
+    0% { background-position:0 0;}
+    100% { background-position: 400% 0;}
+}
+
+.rbw, .rbw-hover:hover {
+    animation: rainbow 10s linear infinite;
+}

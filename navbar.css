@@ -1,0 +1,40 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1a1a1aaa;
+    padding: 1rem 2rem;
+    border-radius: 10px;
+    margin: 5px 10px;
+}
+
+.navbar .title {
+    font: inherit;
+    font-size: 2rem;
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+}
+
+.navlink {
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+}
+
+.navlink a {
+    margin: 0.5rem 1rem;
+    padding: 0;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 22px;
+    color: white; 
+    transition: 0.3s;   
+    border-bottom: 2px solid transparent;
+
+}
+
+.navlink a:hover {
+    color: cornflowerblue;
+    border-bottom: 2px solid white;
+}

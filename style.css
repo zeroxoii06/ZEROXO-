@@ -1,0 +1,208 @@
+:root {
+    font-family: "Montserrat", sans-serif;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background:
+        linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url("../assets/compute-ea4c57a4.png");
+    background-repeat: repeat;
+    background-size: auto2;
+  color: #00ffff;
+  margin: 0;
+  font-family: "Orbitron", sans-serif;
+}
+
+
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+
+main {
+   height: 100vh;
+   background-size: cover;
+   background-position: center;
+
+}
+
+h1{
+    color: white;
+    font-size: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 0%;
+    justify-content: space-aroun;
+
+}
+
+.wellcome-text {
+    user-select: none;
+    font-size: 25px;
+    text-align: center;
+}
+
+.wellcome-text {
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    color: rgba(141, 141, 141, 0.955);
+    font-style: italic;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    text-align: center;
+}
+
+.text-size-1 {
+    font: inherit;
+    font-size: 4rem;
+    font-weight: bold;
+    line-height: 1;
+    margin: 0;
+}
+
+.name {
+    background: linear-gradient(135deg, #ff006e, #3a86ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+    text-decoration: none;
+}
+
+.job {
+    padding: 0.5rem 2rem;
+    border: 1px solid #ff00ff;
+    color: #ff00ff;
+    border-radius: 25px;
+    background-color: #ff00ff50;
+    margin-bottom: 20px;
+}
+
+.wellcome-text1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+.wellcome-text1{
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    color: rgba(141, 141, 141, 0.955);
+    font: inherit;
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+}
+
+
+
+.wellcome-text1:hover{
+     color: rgb(0, 162, 255);
+}
+    
+.social-container {
+    display: flex;
+    flex-direction: row;   /* YAN YANA */
+    justify-content: center;
+    gap: 60px;
+    text-decoration: none;
+}
+
+.social-item {
+    display: flex;
+    flex-direction: column; /* İKON ÜSTTE YAZI ALTTA */
+    align-items: center;
+}
+
+.social-item img {
+    width: 120px;
+    height: auto;
+}
+.social-text1{
+    color: white;
+    font-weight: bold;
+    font: inherit;
+    font-size: 0.9rem;
+    text-decoration: none;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+.social-text1:hover{
+    color: rgb(163, 5, 40);
+}
+
+.social-text{
+    color: white;
+    font-weight: bold;
+    font: inherit;
+    text-decoration: none;
+    font-size: 0.9rem;
+    text-decoration: none;
+    font-weight: bolder;
+    
+}
+
+.social-text:hover{
+    color: rgb(0, 162, 255);
+}
+
+.social-item img {
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
+}
+
+.social-item .instagram-icon {
+  width: 50px; /* biraz küçülttük */
+}
+
+
+.clock-container {
+  text-align: center;
+  
+  padding: 30px 50px;
+  border-radius: 15px;
+
+}
+
+.clock {
+  font-size: 2rem;
+  letter-spacing: 5px;
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  width: 200px;
+  user-select: none;
+}
+
+.colon {
+  color: #b495f1;
+}
+
+#ampm {
+  font-size: 0.8rem;
+  margin-left: 10px;
+  color: #7544d1;
+}
+
+.date {
+  font-size: 0.7rem;
+  margin-top: 15px;
+  color: #b495f1;
+  user-select: none;
+}
+
+.clock-container{
+    border-top: 20px;
+}
