@@ -4,7 +4,6 @@
     left: 0;
     width: ccal(100% - 5.25rem;
     z-index: 100%;
-    
     display: flex;
     justify-content: space-between;
     align-items: center;
